@@ -23,6 +23,5 @@ const firebaseConfig = {
     console.log("clicked")
     
     auth.signOut()
-    alert("Signed Out")
-    window.location = "index.html";
+    window.open("../home.html");
   })
